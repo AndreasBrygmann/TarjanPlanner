@@ -12,7 +12,7 @@ def findOneDistance():
     for r in relatives:
         print(f'Press "{i}" for {r[0]}')
         i += 1
-    relative1 = int(input("\nEnter fist number... "))
+    relative1 = int(input("\nEnter first number... "))
     relative2 = int(input("\nEnter second number... "))
 
     if relative1 >= 0 and relative1 < len(relatives):
